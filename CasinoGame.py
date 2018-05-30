@@ -1,12 +1,11 @@
 import random
 from time import sleep
-
 import math
-
 import os
 
 totalMoney = 10000
 continuer = True
+
 while continuer :
     print("\nVous débutez la partie avec", totalMoney, 'Dh. \n')
     numeroMise = -1
