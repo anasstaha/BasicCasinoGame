@@ -3,8 +3,6 @@ from time import sleep
 import math
 import os
 
-# this a casino simulation game
-
 totalMoney = 10000
 continuer = True
 
@@ -27,7 +25,7 @@ while continuer :
 
     print("Vous avez choisi", numeroMise)
 
-    # choisir le mantant à miser sur le nombre
+    # choisir le montant à miser sur le nombre
     mise = 0
     while mise <= 0 or mise > totalMoney:
         mise = input("\nQuelle votre mise?")
