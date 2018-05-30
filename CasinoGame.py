@@ -3,6 +3,8 @@ from time import sleep
 import math
 import os
 
+# this a casino simulation game
+
 totalMoney = 10000
 continuer = True
 
